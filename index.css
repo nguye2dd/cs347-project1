@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  background-color: lightgreen;
+}
+
+#salon-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#salon-name > h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Dancing Script', cursive;
+  font-size: xx-large;
+}
+
+#salon-name > button {
+  right: 0px;
+}
+
+#header-bar {
+  
+}
+
+#header-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#header-bar > ul > li {
+  list-style-type: none;
+  padding: 7px;
+}
+
+#header-bar > ul > li:hover {
+  background-color: rgb(211, 211, 211);
+}
