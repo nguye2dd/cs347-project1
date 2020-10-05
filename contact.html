@@ -24,26 +24,55 @@
       at 703-490-4422 or fill out the form below to get your appointment
       set up!
     </p>
-    
+
     <h2>Contact Form</h2>
 
-    <label for="name">Name</label>
-    <input type="text" id="name" autocomplete="off">
+    <p>Fill this form out with your information and desried service and we will reach
+      out as soon as possible to set up your appointment with us. If you have an image
+      that better showcases what you are looking for or would like to add any additional
+      details that we should know, feel free to!
+    </p>
 
-    <label for="phone">Phone number</label>
-    <input type="tel" id="phone" autocomplete="off">
+    <div id="form">
 
+      <label for="name">Name</label>
+      <input type="text" id="name" autocomplete="off">
+  
+      <label for="phone">Phone number</label>
+      <input type="tel" id="phone" autocomplete="off">
+  
+  
+      <label for="email">E-mail</label>
+      <input type="email" id="email" autocomplete="off">
+      
+      <label for="preferred"> Preferred method of contact</label>
+      <div>
+        <input type="radio" id="preferred" name="contact-method" value="Call">Call
+        <input type="radio" id="preferred" name="contact-method" value="Text">Text
+        <input type="radio" id="preferred" name="contact-method" value="E-mail">E-mail
+      </div>
+      
+      <label for="service">Service</label>
+      <select name="service" id="service">
+        <option value="Hair">Hair</option>
+        <option value="Manicure">Manicure</option>
+        <option value="Pedicure">Pedicure</option>
+        <option value="Eyebrows">Eyebrows</option>
+      </select>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" autocomplete="off">
+      <label for="img">Upload an image (if desired)</label>
+      <div>
+        <input type="file" id="img" name="img">
+      </div>
+  
+      <label for="details">Additional Details</label>
+      <textarea id="details" cols="30" rows="10"></textarea>
 
+      <button id="send">Send</button>
 
-    <!-- file image uploader -->
+      <script src="js/contact.js"></script>
 
-    <label for="details">Additional Details</label>
-    <textarea id="details" cols="30" rows="10"></textarea>
-    <button id="send">Send</button>
-
+    </div>
 
   </div>
 </body>

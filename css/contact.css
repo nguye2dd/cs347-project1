@@ -1,0 +1,23 @@
+#form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* font-family: ; */
+  max-width: 500px;
+  gap: 5px 5px;
+}
+
+div#form > label{
+  justify-self: end;
+}
+
+#send {
+  grid-column: 2;
+  justify-self: start;
+}
+
+/* @media (max-wdith: 600px) {
+  /* #root {
+    grid-template-columns: 1fr;
+  }
+
+} */ 
