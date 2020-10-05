@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+  background-color: lightgreen;
+}
+
+.root {
+	width: 700px;
+	margin: auto;
+}
+
+h1 { 
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+}
+
+ul.nav  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.nav li {
+	float: left;
+	text-align: center;
+}
+
+a.header-link {
+	display: block;
+	width: 136px;
+	color: white;
+	background-color: #aa0000;
+	padding: 2px;
+	text-decoration: none;
+}
+
+a.header-link:hover {
+	background-color: rgb(80, 80, 80);
+}
