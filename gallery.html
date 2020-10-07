@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/shared.css">
   <link rel="stylesheet" href="css/gallery.css">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Gallery</title>
 </head>
 <body>
   <div class="root">
@@ -18,8 +18,55 @@
       <li><a href="gallery.html" class="header-link">Gallery</a></li>
       <li><a href="about.html" class="header-link">About Us</a></li>
       <li><a href="contact.html" class="header-link">Contact Us</a></li>
-		</ul>
+    </ul>
+    
+    <!-- CHANGE ALL THIS LATER -->
+    <!-- <div class="row">
+      <div class="column">
+        <img src="images/IMG_0001.JPG" alt="Nature" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/IMG_0002.JPG" alt="Snow" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/IMG_0003.JPG" alt="Mountains" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/IMG_0004.JPG" alt="Lights" onclick="myFunction(this);">
+      </div>
+    </div> -->
+
+    <div id="gallery">
+
+      <img src="images/IMG_0001.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0002.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0003.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0004.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0005.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0006.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0007.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0008.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0009.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0010.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0011.JPG" alt="CHANGE LATER" class="img-icon">
+      <img src="images/IMG_0012.JPG" alt="CHANGE LATER" class="img-icon">
+
+      <!-- The Modal -->
+      <div id="img-popup">
+
+        <!-- The Close Button -->
+        <span id="close-button">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img id="img-content">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+    </div>
+
   </div>
-  
+  <script src="js/gallery.js"></script>
 </body>
 </html>
