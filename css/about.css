@@ -1,0 +1,24 @@
+#paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+#self-portrait {
+  width: 200px;
+  height: 300px;
+  right: 0px;
+}
+
+#maps-location {
+  width: 375px;
+  height: 300px;
+}
+
+#store-front {
+  height: 400px;
+  width: 700px;
+}

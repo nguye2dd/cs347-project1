@@ -11,7 +11,7 @@
 <body>
 
   <div class="root">
-    <h1>Contact us!</h1>
+    <h1>Sophisticuts</h1>
     <ul class="nav">
       <li><a href="index.html" class="header-link">Home</a></li>
       <li><a href="services.html" class="header-link">Services</a></li>
@@ -35,24 +35,24 @@
 
     <div id="form">
 
-      <label for="name">Name</label>
+      <label for="name">Name<span class="required">*</span></label>
       <input type="text" id="name" autocomplete="off">
   
-      <label for="phone">Phone number</label>
+      <label for="phone">Phone number<span class="required">*</span></label>
       <input type="tel" id="phone" autocomplete="off">
   
   
-      <label for="email">E-mail</label>
+      <label for="email">E-mail<span class="required">*</span></label>
       <input type="email" id="email" autocomplete="off">
       
-      <label for="preferred"> Preferred method of contact</label>
+      <label for="preferred">Preferred method of contact<span class="required">*</span></label>
       <div>
         <input type="radio" id="preferred" name="contact-method" value="Call">Call
         <input type="radio" id="preferred" name="contact-method" value="Text">Text
         <input type="radio" id="preferred" name="contact-method" value="E-mail">E-mail
       </div>
       
-      <label for="service">Service</label>
+      <label for="service">Service<span class="required">*</span></label>
       <select name="service" id="service">
         <option value="Hair">Hair</option>
         <option value="Manicure">Manicure</option>
@@ -62,7 +62,7 @@
 
       <label for="img">Upload an image (if desired)</label>
       <div>
-        <input type="file" id="img" name="img">
+        <input type="file" id="upload-img" name="img">
       </div>
   
       <label for="details">Additional Details</label>
@@ -70,6 +70,7 @@
 
       <button id="send">Send</button>
 
+      <p><span class="required">*</span> dentoes a required field.</p>
       
 
     </div>
