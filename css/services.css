@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  border: dotted;
+}
+
+.service-listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+footer > ul > li {
+  font-size: x-small;
+}
