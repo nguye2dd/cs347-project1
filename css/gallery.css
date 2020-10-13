@@ -29,8 +29,8 @@
   top: 0; 
   width: 100vw; 
   height: 100vh; 
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.7); /* transparent background */
+  overflow: scroll;
+  background-color: rgba(0,0,0,0.7);
 }
 
 #img-content {
@@ -64,3 +64,18 @@
   cursor: pointer;
 }
 
+#arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#left-arrow {
+transform: rotate(180deg);
+}
+
+#left-arrow, #right-arrow {
+  color: white;
+  font-size: 300%;
+}
