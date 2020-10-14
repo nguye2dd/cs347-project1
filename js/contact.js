@@ -15,7 +15,6 @@ send.addEventListener('click', () => {
     message += ('E-mail: ' + email.value + '\n'); // display email
     message += ('Preferred Contact: ' + getSelectedRadioButton(radioButtons) +'\n'); // display preferred method of contact 
     message += ('Desired Service: ' + service.value + '\n'); //  display desired service
-    //message += ('File uploaded: ' + '\n'); // TODO display if image is uploaded or not??? how to do that??
     message += ('Additional Details: \n' + details.value + '\n\n'); // display additional details
     message += ('Thank you for choosing Sophisticuts for your beauty needs. We will be in touch ASAP!');
 

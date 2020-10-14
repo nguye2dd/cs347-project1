@@ -9,8 +9,8 @@
   <title>Contact us!</title>
 </head>
 <body>
-
   <div class="root">
+
     <h1>Sophisticuts</h1>
     <ul class="nav">
       <li><a href="index.html" class="header-link">Home</a></li>
@@ -45,11 +45,11 @@
       <label for="email">E-mail<span class="required">*</span></label>
       <input type="email" id="email" autocomplete="off">
       
-      <label for="preferred">Preferred method of contact<span class="required">*</span></label>
+      <label for="first-preferred">Preferred method of contact<span class="required">*</span></label>
       <div>
-        <input type="radio" id="preferred" name="contact-method" value="Call">Call
-        <input type="radio" id="preferred" name="contact-method" value="Text">Text
-        <input type="radio" id="preferred" name="contact-method" value="E-mail">E-mail
+        <input type="radio" id="first-preferred" class="preferred" name="contact-method" value="Call">Call
+        <input type="radio" class="preferred" name="contact-method" value="Text">Text
+        <input type="radio" class="preferred" name="contact-method" value="E-mail">E-mail
       </div>
       
       <label for="service">Service<span class="required">*</span></label>
@@ -62,7 +62,7 @@
         <option value="Threading">Threading</option>
       </select>
 
-      <label for="img">Upload an image (if desired)</label>
+      <label for="upload-img">Upload an image (if desired)</label>
       <div>
         <input type="file" id="upload-img" name="img">
       </div>
@@ -79,7 +79,6 @@
     <div class="icon-reference">
       Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </div>
-
   </div>
   <script src="js/contact.js"></script>
 </body>

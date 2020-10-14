@@ -1,13 +1,9 @@
-#paragraph {
+.paragraph {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-p {
-  font-family: 'Chilanka', cursive;
 }
 
 #self-portrait {
@@ -33,7 +29,7 @@ p {
 }
 
 @media (max-width: 600px) {
-  #paragraph {
+  .paragraph {
     flex-direction: column;
   }
 }
