@@ -9,7 +9,7 @@ const send = document.getElementById('send');
 send.addEventListener('click', () => {
 
   if (!missingRequiredField(name.value, phone.value, email.value, getSelectedRadioButton(radioButtons)))  {
-    let message = 'You have enetered the following information\n\n';
+    let message = 'You have enetered the following information. Please confirm it is all correct and press OK to submit.\n\n';
     message += ('Name: ' + name.value + '\n'); // display name
     message += ('Phone Number: ' + phone.value + '\n'); // display phone number
     message += ('E-mail: ' + email.value + '\n'); // display email
@@ -19,7 +19,7 @@ send.addEventListener('click', () => {
     message += ('Additional Details: \n' + details.value + '\n\n'); // display additional details
     message += ('Thank you for choosing Sophisticuts for your beauty needs. We will be in touch ASAP!');
 
-    alert(message);
+    confirm(message);
   }
 
 });
