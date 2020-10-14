@@ -76,6 +76,7 @@ transform: rotate(180deg);
 }
 
 #left-arrow, #right-arrow {
+  cursor: pointer;
   color: white;
   font-size: 300%;
 }
