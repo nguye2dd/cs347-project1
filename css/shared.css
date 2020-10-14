@@ -37,3 +37,7 @@ a.header-link {
 a.header-link:hover {
 	background-color: rgb(80, 80, 80);
 }
+
+.icon-reference {
+	font-size: x-small;
+}
