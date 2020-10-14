@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+p {
+	font-family: 'Chilanka', cursive;
+}
+
 body {
 	margin: 0px;
   background-color: lightgreen;
@@ -9,8 +17,12 @@ body {
 }
 
 h1 { 
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Satisfy', cursive;
 	font-size: 35px;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
 }
 
 ul.nav  {
@@ -40,6 +52,7 @@ a.header-link:hover {
 
 .icon-reference {
 	font-size: x-small;
+	text-align: center;
 }
 
 @media (max-width: 700px) {

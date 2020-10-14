@@ -1,10 +1,15 @@
 .img-icon {
-  max-height: 200px;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
   cursor: pointer;
   transition: 1s;
   border-radius: 25%;
   padding: 10px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }
 
 .img-icon:hover {
@@ -27,7 +32,7 @@
   padding-top: 100px;
   left: 0;
   top: 0; 
-  max-width: 100vw; 
+  width: 100vw; 
   height: 100vh; 
   overflow: scroll;
   background-color: rgba(0,0,0,0.7);
@@ -36,6 +41,7 @@
 #img-content {
   margin: auto;
   display: block;
+  width: 80%;
   max-width: 700px;
 }
 
@@ -69,10 +75,6 @@
   justify-content: center;
   align-items: baseline;
 }
-
-/* #left-arrow {
-transform: rotate(180deg);
-} */
 
 #left-arrow, #right-arrow {
   cursor: pointer;
